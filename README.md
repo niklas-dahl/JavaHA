@@ -5,7 +5,7 @@ Java Hausaufgabe und stuff
 
 * Marius Bronner
 * Niklas Dahl
-* Finde gerade den Namen nicht
+* David Neuroth
 
 ###Hausaufgaben Abgabe: Marius Bronner
 
