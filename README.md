@@ -25,4 +25,4 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 ###ToDo:
 - [x] Programm schreiben (ja, sowas muss mein bei Java auch machen :-o)
 - [x] Die Hausaufgabe kommentieren
-- [ ] Die HA absenden (bis Mittwoch)
+- [x] Die HA absenden (bis Mittwoch)
