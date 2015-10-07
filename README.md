@@ -23,6 +23,6 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2    
 
 ###ToDo:
-- [x] Programm schreiben (ja, sowas muss mein bei Java auch machen :-o)
-- [x] Die Hausaufgabe kommentieren
-- [x] Die HA absenden (bis Mittwoch)
+- [ ahhh es klappt nicht ] Programm schreiben (ja, sowas muss mein bei Java auch machen :-o)
+- [ ] Die Hausaufgabe kommentieren
+- [ ] Die HA absenden (bis Mittwoch)
