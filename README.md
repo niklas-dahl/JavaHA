@@ -3,8 +3,8 @@
 
 ![small hamster](smha.gif)
 
-Hier kÃ¶nnen wir die Hausaufgaben hochladen, damit 
-Marius sie spÃ¤ter zusammen auf Ilias abgeben kann
+Hier können wir die Hausaufgaben hochladen, damit 
+Marius sie später zusammen auf Ilias abgeben kann
 
 __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
@@ -15,7 +15,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 * David Neuroth
 
 ##Aufgabeverteilung:
-MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
+Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
 * David Neuroth: Aufgaben | Nummer%3 == 2    
