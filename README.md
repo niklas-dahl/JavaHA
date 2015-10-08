@@ -6,15 +6,13 @@
 Hier kÃ¶nnen wir die Hausaufgaben hochladen, damit 
 Marius sie spÃ¤ter zusammen auf Ilias abgeben kann
 
-__Die erste Hausaufgabe muss bis Mittwoch im Ilias sein !__
+__Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###Gruppe
 
 1. Marius Bronner
 * Niklas Dahl
 * David Neuroth
-
-###Hausaufgaben Abgabe: Marius Bronner
 
 ##Aufgabeverteilung:
 MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
@@ -23,6 +21,7 @@ MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2    
 
 ###ToDo:
-- [x] Programm schreiben (ja, sowas muss mein bei Java auch machen :-o)
-- [x] Die Hausaufgabe kommentieren
-- [x] Die HA absenden (bis Mittwoch)
+- [ ] Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!
+- [ ] Programm schreiben (ja, sowas muss mein bei Java auch machen :-o)
+- [ ] Die Hausaufgabe kommentieren
+- [ ] Die HA absenden
