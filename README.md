@@ -22,11 +22,11 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 
 ###ToDo:
 - [ ] Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!
-- [ ] Programm schreiben (ja, sowas muss mein bei Java auch machen :-o)
+- [ ] Programm schreiben (ja, sowas muss mein bei Java auch machen :o)
 - [ ] Die Hausaufgabe kommentieren
 - [ ] Die HA absenden
 
-### History
+### History:
 1. Hausaufgabe
 	* 7/7 Punkten (100%)
 	* Kommentar: -func 5; -wart 2; Streng genommen solltet ihr gucken, was die "Stoppwatch" so tut, nicht die "Stoppuhr" ;) (kein Punktabzug).
