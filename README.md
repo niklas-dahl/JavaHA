@@ -22,9 +22,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 
 ###ToDo:
 - [ ] Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!
-- [ ] Programm schreiben (ja, sowas muss mein bei Java auch machen :o)
-- [ ] Die Hausaufgabe kommentieren
-- [ ] Die HA absenden
+- [ ] [HA2](src/HA2) fertig machen
 
 ### History:
 1. Hausaufgabe
