@@ -1,21 +1,6 @@
 package HA2;
 
 public class Flugzeug {
-	
-	/**
-	 * ***************************************
-	 * TODO: Das, was noch auf dem Blatt steht
-	 * 
-	 * Der Pflug hat ja nachträglich noch was
-	 * an der Aufgabe geändert, ich gucks mir
-	 * vielleicht irgendwann dieses Wochenende 
-	 * mal an.
-	 * 
-	 * TODO: Javadoc! So was wie das hier, nur
-	 * dass es auch was mit dem prorammierten
-	 * Code zu tun haben soll ;)
-	 * ***************************************
-	 */
 
 	private boolean belegung[][] = new boolean[7][6];
 
@@ -26,12 +11,10 @@ public class Flugzeug {
 		s = s.toLowerCase();
 		int x = s.charAt(0) - '1';
 		int y = s.charAt(1) - 'a';
-		if (x < 0 || x > 6 || y < 0 || y > 5) {
-			throw new RuntimeException(); // TODO Eigene Exception werfen
-		}
-		if (x < 3 && y > 1 && y < 4) {
-			throw new RuntimeException(); // TODO Eigene Exception werfen
-		}
+		if (!platzGueltig(x, y))
+			throw new WrongPositionException("Dieser Platz existiert nicht!");
+		if(belegung[x][y])
+			throw new NotAvailableException("Dieser Platz ist leider schon vergeben :(");
 		belegung[x][y] = true;
 	}
 
@@ -39,9 +22,9 @@ public class Flugzeug {
 		String ret = "";
 		for (int x = 0; x < 7; x++) {
 			for (int y = 0; y < 6; y++) {
-				if (!(x < 3 && y > 1 && y < 4)) {
+				if (platzGueltig(x, y)) {
 					if (belegung[x][y]) {
-						ret += "= ";
+						ret += "X ";
 					} else {
 						ret += (char) (y + 'A') + " ";
 					}
@@ -50,6 +33,39 @@ public class Flugzeug {
 				}
 			}
 			ret += "\n";
+		}
+		return ret;
+	}
+
+	private boolean platzGueltig(int x, int y) {
+		if (x < 0 || x > 6 || y < 0 || y > 5) {
+			return false;
+		}
+		if (!(x < 3 && y > 1 && y < 4)) {
+			return true;
+		}
+		return false;
+	}
+
+	public boolean[] findeReihen(int personen) {
+		boolean[] ret = new boolean[belegung.length + 1]; // So kann man am Ende
+															// leichter Reihen
+															// hinzufügen.
+		for (int x = 0; x < belegung.length; x++) {
+			int count = 0;
+			for (int y = 0; y < belegung[0].length; y++) {
+				if (platzGueltig(x, y)) {
+					if (!belegung[x][y]) {
+						count++;
+					} else {
+						count = 0;
+					}
+				}
+				if (count >= personen) {
+					ret[x + 1] = true;
+					break;
+				}
+			}
 		}
 		return ret;
 	}
