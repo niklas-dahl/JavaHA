@@ -21,8 +21,10 @@ MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2    
 
 ###ToDo:
-- [ ] Rausfinden, wer zur HÃ¶lle David Neuroth ist (wÃ¤r schon praktisch)!
-- [ ] [HA2](src/HA2) fertig machen
+- [ ] __Rausfinden, wer zur HÃ¶lle David Neuroth ist (wÃ¤r schon praktisch)!__
+- [ ] Dann müssen wir noch herausfinden, wer David Neuroth ist.
+- [ ] Ach ja, und wir müssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
+* Alles klärchen, das war's dann eigentlich auch schon ;)
 
 ### History:
 1. Hausaufgabe
