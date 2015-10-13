@@ -1,6 +1,19 @@
 package HA2;
 
+/**
+ * Ein Funktionstest für die Flugzeug-Klasse.
+ * 
+ * @author Niklas Dahl, Marius Bronner, David Neuroth
+ *
+ */
+
 public class Test {
+	
+	/**
+	 * Test-Klasse aus der Aufgabenstellung.
+	 * 
+	 * @param args Start-Argumente. Werden nicht berücksichtigt.
+	 */
 
 	public static void main(String[] args) {
 		Flugzeug f = new Flugzeug();
