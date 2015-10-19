@@ -3,10 +3,10 @@
 
 ![small hamster](smha.gif)
 
-Hier kÃ¶nnen wir die Hausaufgaben hochladen, damit 
-Marius sie spÃ¤ter zusammen auf Ilias abgeben kann
+Hier können wir die Hausaufgaben hochladen, damit 
+Marius sie später zusammen auf Ilias abgeben kann
 
-__Die Hausaufgaben mÃ¼ssen jeweils Dienstag Nacht im Ilias sein !__
+__Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###Gruppe
 
@@ -15,18 +15,21 @@ __Die Hausaufgaben mÃ¼ssen jeweils Dienstag Nacht im Ilias sein !__
 * David Neuroth
 
 ##Aufgabeverteilung:
-MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
+Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
 * David Neuroth: Aufgaben | Nummer%3 == 2    
 
 ###ToDo:
-- [ ] Rausfinden, wer zur HÃ¶lle David Neuroth ist (wÃ¤r schon praktisch)!
-- [ ] [HA2](src/HA2) fertig machen
+- [ ] __Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!__
+- [ ] Dann müssen wir noch herausfinden, wer David Neuroth ist.
+- [ ] Ach ja, und wir müssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
+* Alles klärchen, das war's dann eigentlich auch schon ;)
 
 ### History:
 1. Hausaufgabe
 	* 7/7 Punkten (100%)
 	* Kommentar: -func 5; -wart 2; Streng genommen solltet ihr gucken, was die "Stoppwatch" so tut, nicht die "Stoppuhr" ;) (kein Punktabzug).
+	* Extrem nice Kopierarbeit, Niklas :D !!
 2. Hausaufgabe
 	* Noch kein Ergebis
