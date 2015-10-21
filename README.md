@@ -20,6 +20,12 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
 * David Neuroth: Aufgaben | Nummer%3 == 2    
 
+...hat sich leider nicht durchgesetzt!
+
+Die neue Verteilung:
+* Marius Bronner: Hausaufgabenzettel | Nummer%2 == 0
+* Niklas Dahl : Hausaufgabenzettel | Nummer%2 == 1
+
 ###ToDo:
 - [x] __Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!__
 - [x] Dann müssen wir noch herausfinden, wer David Neuroth ist.
