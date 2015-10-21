@@ -18,18 +18,12 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
-* David Neuroth: Aufgaben | Nummer%3 == 2    
-
-...hat sich leider nicht durchgesetzt!
-
-Die neue Verteilung:
-* Marius Bronner: Hausaufgabenzettel | Nummer%2 == 0
-* Niklas Dahl : Hausaufgabenzettel | Nummer%2 == 1
+* David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [x] __Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!__
-- [x] Dann müssen wir noch herausfinden, wer David Neuroth ist.
-- [x] Ach ja, und wir müssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
+- [ ] __Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!__
+- [ ] Dann müssen wir noch herausfinden, wer David Neuroth ist.
+- [ ] Ach ja, und wir müssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
 * Alles klärchen, das war's dann eigentlich auch schon ;)
 
 ### History:
