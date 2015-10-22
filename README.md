@@ -3,10 +3,10 @@
 
 ![small hamster](smha.gif)
 
-Hier können wir die Hausaufgaben hochladen, damit 
-Marius sie später zusammen auf Ilias abgeben kann
+Hier kï¿½nnen wir die Hausaufgaben hochladen, damit 
+Marius sie spï¿½ter zusammen auf Ilias abgeben kann
 
-__Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
+__Die Hausaufgaben mï¿½ssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###Gruppe
 
@@ -15,16 +15,16 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 * David Neuroth
 
 ##Aufgabeverteilung:
-Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
+Mï¿½ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!__
-- [ ] Dann müssen wir noch herausfinden, wer David Neuroth ist.
-- [ ] Ach ja, und wir müssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
-* Alles klärchen, das war's dann eigentlich auch schon ;)
+- [ ] __Rausfinden, wer zur Hï¿½lle David Neuroth ist (wï¿½r schon praktisch)!__
+- [ ] Dann mï¿½ssen wir noch herausfinden, wer David Neuroth ist.
+- [ ] Ach ja, und wir mï¿½ssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
+* Alles klï¿½rchen, das war's dann eigentlich auch schon ;)
 
 ### History:
 1. Hausaufgabe
@@ -32,5 +32,8 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 	* Kommentar: -func 5; -wart 2; Streng genommen solltet ihr gucken, was die "Stoppwatch" so tut, nicht die "Stoppuhr" ;) (kein Punktabzug).
 2. Hausaufgabe
 	* 7/7 Punkten, wieder 100%, yay!
-	* Kommentar: -func 5; -wart 2; Die uns gegebene Musterlösung arbeitet mit einem int-Array (-1 für nicht vorhanden, 0 für verfügbar und 1 für belegt), die meisten anderen Gruppen haben ein char-Array verwendet, daher wurde da der Konstruktor benötigt, um die Arrays zu initialisieren. Das spart ihr euch natürlich mit einem boolean-Array und der entsprechenden Hilfsmethode "platzGueltig". Gefällt mir persönlich auch besser.
-	* Es gefällt ihm besser als die Musterlösung!! Der __HAMMER__ :D
+	* Kommentar: -func 5; -wart 2; Die uns gegebene Musterlï¿½sung arbeitet mit einem int-Array (-1 fï¿½r nicht vorhanden, 0 fï¿½r verfï¿½gbar und 1 fï¿½r belegt), die meisten anderen Gruppen haben ein char-Array verwendet, daher wurde da der Konstruktor benï¿½tigt, um die Arrays zu initialisieren. Das spart ihr euch natï¿½rlich mit einem boolean-Array und der entsprechenden Hilfsmethode "platzGueltig". Gefï¿½llt mir persï¿½nlich auch besser.
+	* Es gefï¿½llt ihm besser als die Musterlï¿½sung!! Der __HAMMER__ :D
+3. Hausaufgabe
+	* 7/7 Punkten!!
+	* Kommentar: -func 5; -wart 2; Die Funktionen getMax() und getMaxIndex() machen praktisch das Gleiche, also hÃ¤ttet ihr zur Berechnung der grÃ¶ÃŸten Zahl auch einfach values[getMaxIndex()] nehmen kÃ¶nnen. Parser-Funktionen bei Benutzereingaben wÃ¼rde ich normalerweise immer in einem try-catch machen, auch wenn das in diesem Fall nicht gefordert war.
