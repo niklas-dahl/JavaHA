@@ -1,52 +1,51 @@
 package HA4;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 /**
  * ein Objekt dieser Klasse speichert ein Datum mit dem entsprechenden Preis
+ * 
  * @author David Neuroth
  *
  */
-public class GoldTagespreis
-{
+public class GoldTagespreis {
 	private String datum;
-	private double preis = -1;
-
-	public static void main(String[] args)
-	{
-
-	}
+	private double preis;
 
 	/**
-	 * Konstruktor von GoldTagespreis, liest aus dem Stringparameter das Datum und den Preis aus
+	 * Konstruktor von GoldTagespreis, liest aus dem Stringparameter das Datum
+	 * und den Preis aus
+	 * 
 	 * @param s
 	 */
-	public GoldTagespreis(String s)
-	{
-		datum = s.substring(0, 10);
-		if (!s.contains("kein Nachweis"))
-		{
-			preis = 1000 * Integer.parseInt(s.substring(11, 13));
-			preis += Integer.parseInt(s.substring(14, 17));
-			preis += Integer.parseInt(s.substring(19)) / 10;
+	public GoldTagespreis(String s) {
+		String[] proc = s.split("\t");
+		this.datum = proc[0];
+		try {
+			NumberFormat nf = NumberFormat.getInstance(Locale.GERMAN);
+			this.preis = nf.parse(proc[1]).doubleValue();
+		} catch (Exception ex) {
+			this.preis = -1;
 		}
 	}
 
 	/**
-	 * gibt das Datum und den Preis im selben Format wie in der Datei als String zurück
+	 * gibt das Datum und den Preis im selben Format wie in der Datei als String
+	 * zurück
+	 * 
 	 * @param String
 	 */
-	public String toString()
-	{
-		String s = "" + preis;
-		return datum + "\t" + s.substring(0, 2) + "." + s.substring(2, 5) + "," + s.substring(6);
+	public String toString() {
+		NumberFormat nf = NumberFormat.getInstance(Locale.GERMAN);
+		return this.datum + "\t" + nf.format(this.preis);
 	}
 
-	public String getDatum()
-	{
+	public String getDatum() {
 		return datum;
 	}
 
-	public double getPreis()
-	{
+	public double getPreis() {
 		return preis;
 	}
 }
