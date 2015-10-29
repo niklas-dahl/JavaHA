@@ -3,10 +3,17 @@
 
 ![small hamster](smha.gif)
 
+###Info
+
 Hier können wir die Hausaufgaben hochladen, damit 
 Marius sie später zusammen auf Ilias abgeben kann
 
 __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
+
+###News
+
+- HA5 ist jetzt online. Seht euch mal an, ob es noch was zu verbessern gibt!#
+- HA4 ist korrigiert. Wieder 100%, yaaaay!!
 
 ###Gruppe
 
@@ -21,7 +28,9 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __HA4__ absenden
+- [x] __HA5__ programmieren (hab ich schon in einer langweiligen, langweiligen Ana-Vorlesung gemacht :) )
+- [ ] kommentieren
+- [ ] absenden
 
 ### History:
 1. Hausaufgabe
@@ -34,3 +43,6 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 3. Hausaufgabe
 	* 7/7 Punkten!!
 	* Kommentar: -func 5; -wart 2; Die Funktionen getMax() und getMaxIndex() machen praktisch das Gleiche, also hättet ihr zur Berechnung der größten Zahl auch einfach values[getMaxIndex()] nehmen können. Parser-Funktionen bei Benutzereingaben würde ich normalerweise immer in einem try-catch machen, auch wenn das in diesem Fall nicht gefordert war.
+4. Hausaufgabe
+	* 7/7 Punkten
+	* Kommentar: -func 5; -wart 2; Schöne Lösung.
