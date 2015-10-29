@@ -9,10 +9,12 @@ package HA5;
  */
 
 public class UnknownNameException extends RuntimeException {
-	
+
 	/**
 	 * Ich kommentier das jetzt mal nicht (ups, ich habs gerade kommentiert...)
-	 * @param s Kein Kommentar!!
+	 * 
+	 * @param s
+	 *            Kein Kommentar!!
 	 */
 
 	public UnknownNameException(String s) {

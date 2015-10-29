@@ -13,12 +13,14 @@ import java.net.URL;
  */
 
 public class Test {
-	
+
 	public static void main(String[] args) {
 		EMailAdressBuch rwth = new EMailAdressBuch();
 		try {
-			rwth.mitarbeiterEinlesen(new URL("https://doc.itc.rwth-aachen.de/download/attachments/5800183/mitarbeiter_matse_intern.txt?version=1&modificationDate=1413971200000&api=v2"));
-			rwth.mitarbeiterEinlesen(new URL("https://doc.itc.rwth-aachen.de/download/attachments/5800183/mitarbeiter_matse_extern.txt?version=1&modificationDate=1413971214000&api=v2"));
+			rwth.mitarbeiterEinlesen(new URL(
+					"https://doc.itc.rwth-aachen.de/download/attachments/5800183/mitarbeiter_matse_intern.txt?version=1&modificationDate=1413971200000&api=v2"));
+			rwth.mitarbeiterEinlesen(new URL(
+					"https://doc.itc.rwth-aachen.de/download/attachments/5800183/mitarbeiter_matse_extern.txt?version=1&modificationDate=1413971214000&api=v2"));
 		} catch (MalformedURLException e) {
 			System.out.println("Irgendwie sind das keine gültigen URLs....");
 			e.printStackTrace();

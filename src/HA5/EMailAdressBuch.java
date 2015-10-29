@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 
 public class EMailAdressBuch {
-	
+
 	/**
 	 * Hier werden die Kontaktdaten gespeichert!
 	 */
@@ -90,7 +90,8 @@ public class EMailAdressBuch {
 	 * 
 	 * @param dateiname
 	 *            Naja, der Name ist ja schon ziemlich selbsterklärend, oder?
-	 *            --RICHTIIIG!! Der Pfad zur Datei! (DING-DING-DING, der Kandidat bekommt 100 Punkte!!) 
+	 *            --RICHTIIIG!! Der Pfad zur Datei! (DING-DING-DING, der
+	 *            Kandidat bekommt 100 Punkte!!)
 	 * @throws FileNotFoundException
 	 *             Wenn die Datei nicht gefunden werden kann
 	 */
