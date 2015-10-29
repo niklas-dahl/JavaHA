@@ -12,7 +12,8 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- HA5 ist jetzt online. Seht euch mal an, ob es noch was zu verbessern gibt!#
+- HA5 ist jetzt online. Seht euch mal an, ob es noch was zu verbessern gibt!
+- __UPDATE:__ HA5 ist jetzt auch schon kommentiert! #LangweiltMichLangweiltMich!!
 - HA4 ist korrigiert. Wieder 100%, yaaaay!!
 
 ###Gruppe
@@ -29,7 +30,6 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 
 ###ToDo:
 - [x] __HA5__ programmieren (hab ich schon in einer langweiligen, langweiligen Ana-Vorlesung gemacht :) )
-- [ ] kommentieren
 - [ ] absenden
 
 ### History:

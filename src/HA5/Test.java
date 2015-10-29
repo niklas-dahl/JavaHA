@@ -5,6 +5,13 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+/**
+ * Testklasse. Siehe Hausaufgabenblatt...
+ * 
+ * @author Java-Hausaufgabengruppe 21
+ *
+ */
+
 public class Test {
 	
 	public static void main(String[] args) {
