@@ -84,6 +84,22 @@ public class EMailAdressBuch {
 	}
 
 	/**
+	 * Interne Funktion. Nimmt ein Scanner-Objekt an und liest seine Daten ein.
+	 * Wird von {@link #einlesen(String)} und {@link #mitarbeiterEinlesen(URL)}
+	 * aufgerufen.
+	 * 
+	 * @param sc Scanner-Objekt
+	 */
+
+	private void einlesen(Scanner sc) {
+		while (sc.hasNextLine()) {
+			String[] eintrag = sc.nextLine().split(";", 2);
+			addrs.put(eintrag[0], eintrag[1]);
+		}
+		sc.close();
+	}
+
+	/**
 	 * Liest Kontaktdaten aus einer Datei im Format name;email[Neue
 	 * Zeile]name;email[Neue Zeile]... ein. Wirft eine FileNotFoundException,
 	 * wenn die Datei nicht gefunden werden kann.
@@ -97,12 +113,7 @@ public class EMailAdressBuch {
 	 */
 
 	public void einlesen(String dateiname) throws FileNotFoundException {
-		Scanner sc = new Scanner(new File(dateiname), "UTF-8");
-		while (sc.hasNextLine()) {
-			String[] eintrag = sc.nextLine().split(";", 2);
-			addrs.put(eintrag[0], eintrag[1]);
-		}
-		sc.close();
+		this.einlesen(new Scanner(new File(dateiname), "UTF-8"));
 	}
 
 	/**
@@ -117,12 +128,7 @@ public class EMailAdressBuch {
 	 */
 
 	public void mitarbeiterEinlesen(URL url) throws IOException {
-		Scanner sc = new Scanner((InputStream) url.openConnection().getContent(), "UTF-8");
-		while (sc.hasNextLine()) {
-			String[] eintrag = sc.nextLine().split(";", 2);
-			addrs.put(eintrag[0], eintrag[1]);
-		}
-		sc.close();
+		this.einlesen(new Scanner((InputStream) url.openConnection().getContent(), "UTF-8"));
 	}
 
 }
