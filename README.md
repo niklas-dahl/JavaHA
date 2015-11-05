@@ -5,16 +5,14 @@
 
 ###Info
 
-Hier können wir die Hausaufgaben hochladen, damit 
-Marius sie später zusammen auf Ilias abgeben kann
+Hier kÃ¶nnen wir die Hausaufgaben hochladen, damit 
+Marius sie spÃ¤ter zusammen auf Ilias abgeben kann
 
-__Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
+__Die Hausaufgaben mÃ¼ssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- HA5 ist jetzt online. Seht euch mal an, ob es noch was zu verbessern gibt!
-- __UPDATE:__ HA5 ist jetzt auch schon kommentiert! #LangweiltMichLangweiltMich!!
-- HA4 ist korrigiert. Wieder 100%, yaaaay!!
+- HA5 ist korrigiert. Wieder 100%, allerdings hat er gesagt, ich soll die Kommentare wieder etwas ernster nehmen \*heul\*... Naja... 
 
 ###Gruppe
 
@@ -23,14 +21,13 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 * David Neuroth
 
 ##Aufgabeverteilung:
-Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
+MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [x] __HA5__ programmieren (hab ich schon in einer langweiligen, langweiligen Ana-Vorlesung gemacht :) )
-- [ ] absenden
+- [x] Warten, bis __HA6__ raus ist!
 
 ### History:
 1. Hausaufgabe
@@ -38,11 +35,14 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 	* Kommentar: -func 5; -wart 2; Streng genommen solltet ihr gucken, was die "Stoppwatch" so tut, nicht die "Stoppuhr" ;) (kein Punktabzug).
 2. Hausaufgabe
 	* 7/7 Punkten, wieder 100%, yay!
-	* Kommentar: -func 5; -wart 2; Die uns gegebene Musterlösung arbeitet mit einem int-Array (-1 für nicht vorhanden, 0 für verfügbar und 1 für belegt), die meisten anderen Gruppen haben ein char-Array verwendet, daher wurde da der Konstruktor benötigt, um die Arrays zu initialisieren. Das spart ihr euch natürlich mit einem boolean-Array und der entsprechenden Hilfsmethode "platzGueltig". Gefällt mir persönlich auch besser.
-	* Es gefällt ihm besser als die Musterlösung!! Der __HAMMER__ :D
+	* Kommentar: -func 5; -wart 2; Die uns gegebene MusterlÃ¶sung arbeitet mit einem int-Array (-1 fÃ¼r nicht vorhanden, 0 fÃ¼r verfÃ¼gbar und 1 fÃ¼r belegt), die meisten anderen Gruppen haben ein char-Array verwendet, daher wurde da der Konstruktor benÃ¶tigt, um die Arrays zu initialisieren. Das spart ihr euch natÃ¼rlich mit einem boolean-Array und der entsprechenden Hilfsmethode "platzGueltig". GefÃ¤llt mir persÃ¶nlich auch besser.
+	* Es gefÃ¤llt ihm besser als die MusterlÃ¶sung!! Der __HAMMER__ :D
 3. Hausaufgabe
 	* 7/7 Punkten!!
-	* Kommentar: -func 5; -wart 2; Die Funktionen getMax() und getMaxIndex() machen praktisch das Gleiche, also hättet ihr zur Berechnung der größten Zahl auch einfach values[getMaxIndex()] nehmen können. Parser-Funktionen bei Benutzereingaben würde ich normalerweise immer in einem try-catch machen, auch wenn das in diesem Fall nicht gefordert war.
+	* Kommentar: -func 5; -wart 2; Die Funktionen getMax() und getMaxIndex() machen praktisch das Gleiche, also hÃ¤ttet ihr zur Berechnung der grÃ¶ÃŸten Zahl auch einfach values[getMaxIndex()] nehmen kÃ¶nnen. Parser-Funktionen bei Benutzereingaben wÃ¼rde ich normalerweise immer in einem try-catch machen, auch wenn das in diesem Fall nicht gefordert war.
 4. Hausaufgabe
 	* 7/7 Punkten
-	* Kommentar: -func 5; -wart 2; Schöne Lösung.
+	* Kommentar: -func 5; -wart 2; SchÃ¶ne LÃ¶sung.
+5. Hausaufgabe
+	* 7/7 Punkten
+	* Kommentar: -func 5; -wart 2; Euer eigene Adressdatei hÃ¤ttet ihr mir ruhig dazulegen kÃ¶nnen. Hashmap toString() wÃ¼rde ich nicht verwenden, da die ganzen Adressen dann nebeneinander stehen, was unÃ¼bersichtlich ist (da es so auch in der Beispielausgabe der Aufgabenstellung steht, kein Punktabzug). Nehmt die Kommentierung wieder ein bisschen ernster, sollten die Korrekteure wechseln, wÃ¼rde es mich nicht wundern, wenn man euch dafÃ¼r Punkte abzieht.
