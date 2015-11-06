@@ -3,6 +3,13 @@
 
 ![small hamster](smha.gif)
 
+```java
+void main(String[] args) {
+  Gesamtstand score = new Gesamtstand();
+  score.setScore(100); //yay :)
+}
+```
+
 ###Info
 
 Hier können wir die Hausaufgaben hochladen, damit 
