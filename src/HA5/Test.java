@@ -22,7 +22,7 @@ public class Test {
 			rwth.mitarbeiterEinlesen(new URL(
 					"https://doc.itc.rwth-aachen.de/download/attachments/5800183/mitarbeiter_matse_extern.txt?version=1&modificationDate=1413971214000&api=v2"));
 		} catch (MalformedURLException e) {
-			System.out.println("Irgendwie sind das keine gültigen URLs....");
+			System.out.println("Irgendwie sind das keine gÃ¼ltigen URLs....");
 			e.printStackTrace();
 		} catch (IOException e) {
 			System.out.println("Download der E-Mail-Listen fehlgeschlagen! Internet an?");
@@ -31,7 +31,7 @@ public class Test {
 		System.out.println(rwth);
 		EMailAdressBuch testfile = new EMailAdressBuch();
 		try {
-			testfile.einlesen("emails.txt");
+			testfile.einlesen("res/emails.txt");
 		} catch (FileNotFoundException e) {
 			System.out.println("Die Datei mit den E-Mails wurde leider nicht gefunden!!");
 			e.printStackTrace();
