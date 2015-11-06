@@ -1,4 +1,4 @@
-#History (zurück zur [Haupt-Readme](./)?)
+#History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
 | Nr. | Punkte (/7) | Kommentar
