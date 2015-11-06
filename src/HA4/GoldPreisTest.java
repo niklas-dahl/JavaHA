@@ -11,7 +11,7 @@ import java.io.FileNotFoundException;
 public class GoldPreisTest {
 	public static void main(String[] args) {
 		try {
-			GoldPreis test = new GoldPreis("gold.txt");
+			GoldPreis test = new GoldPreis("res/gold.txt");
 			System.out.println(test.getPreis("2009-10-20"));
 			System.out.println(test.getPreis("2009-02-07"));
 			test.printMinMax();
