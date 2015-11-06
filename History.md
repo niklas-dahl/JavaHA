@@ -1,7 +1,7 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
-__Derzeitiger Gesamtstatus:__ :white_check_mark: Noch immer 100%!
+__Derzeitiger Gesamtstatus:__ :white_check_mark: Noch immer 100%! /play greatjob
 
 | Nr. | Punkte (/7) | Kommentar
 |----:|:-----------:|---
