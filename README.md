@@ -30,3 +30,4 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 - [x] Warten, bis __HA6__ raus ist!
 
 ### [History](History.md)
+-- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
