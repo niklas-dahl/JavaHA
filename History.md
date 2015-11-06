@@ -1,6 +1,8 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
+__Derzeitiger Gesamtstatus:__ :white_check_mark: Noch immer 100%!
+
 | Nr. | Punkte (/7) | Kommentar
 |----:|:-----------:|---
 | 5   | 5+2=7       | Euer eigene Adressdatei hättet ihr mir ruhig dazulegen können. Hashmap toString() würde ich nicht verwenden, da die ganzen Adressen dann nebeneinander stehen, was unübersichtlich ist (da es so auch in der Beispielausgabe der Aufgabenstellung steht, kein Punktabzug). Nehmt die Kommentierung wieder ein bisschen ernster, sollten die Korrekteure wechseln, würde es mich nicht wundern, wenn man euch dafür Punkte abzieht.
