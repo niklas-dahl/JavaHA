@@ -20,7 +20,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 * Niklas Dahl
 * David Neuroth
 
-##Aufgabeverteilung:
+##Aufgabenverteilung:
 Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
