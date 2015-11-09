@@ -19,7 +19,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- HA5 ist korrigiert. Wieder 100%, allerdings hat er gesagt, ich soll die Kommentare wieder etwas ernster nehmen \*heul\*... Naja... 
+- David hat Hausaufgabe 6 hochgeladen. (Dankeschön :) ) Ich lade sie morgen Abend hoch.
 
 ###Gruppe
 
