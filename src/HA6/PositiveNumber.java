@@ -15,26 +15,26 @@ public class PositiveNumber
 	}
 
 	/**
-	 * Hilfsmethode, die Â¸berprÂ¸ft, ob der Wert des BigIntegers im zulâ€°ssigen
+	 * Hilfsmethode, die überprüft, ob der Wert des BigIntegers im zulässigen
 	 * Bereich liegt und initialisiert dann das Attribut mit diesem Wert, wirft
 	 * andernfalls eine Exception
 	 * 
 	 * @param der
-	 *            zu Â¸berprÂ¸fende BigInteger
+	 *            zu überprüfende BigInteger
 	 */
 	public void checkBigInt(BigInteger b)
 	{
 		if (b.signum() == -1 || b.subtract(new BigInteger("" + Integer.MAX_VALUE)).signum() == 1)
 		{
-			throw new NumberFormatException("Die eingegebene Zahl liegt auï¬‚erhalb des gÂ¸ltigen Wertebereichs!");
+			throw new NumberFormatException("Die eingegebene Zahl liegt auï¬‚erhalb des gültigen Wertebereichs!");
 		}
 		value = b.intValue();
 	}
 
 	/**
-	 * gibt das Attribut in Binâ€°r zurÂ¸ck
+	 * gibt das Attribut in Binär zurück
 	 * 
-	 * @return Binâ€°rzahl als String
+	 * @return Binärzahl als String
 	 */
 	public String getBinary()
 	{
@@ -49,10 +49,10 @@ public class PositiveNumber
 	}
 
 	/**
-	 * liest eine Binâ€°rzahl als String ein, wandelt sie in einen BigInteger um
+	 * liest eine Binärzahl als String ein, wandelt sie in einen BigInteger um
 	 * und ruft damit die Hilfsmethode checkBigInt(BigInteger b) auf
 	 * 
-	 * @param Binâ€°rzahl als String
+	 * @param Binärzahl als String
 	 */
 	public void setBinary(String s)
 	{
@@ -68,7 +68,7 @@ public class PositiveNumber
 	}
 
 	/**
-	 * gibt das Attribut als Dezimalzahl zurÂ¸ck
+	 * gibt das Attribut als Dezimalzahl zurück
 	 * 
 	 * @return Attribut als String
 	 */
@@ -90,7 +90,7 @@ public class PositiveNumber
 	}
 
 	/**
-	 * gibt das Attribut in Hexadezimal zurÂ¸ck
+	 * gibt das Attribut in Hexadezimal zurück
 	 * 
 	 * @return Hexadezimalzahl als String
 	 */
