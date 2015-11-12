@@ -6,7 +6,7 @@ public class MessreiheTest {
 	
 	/**
 	 * Die Methode testet die Messreihe Klasse
-	 * @param args
+	 * @param args Nicht wichtig für dieses Programm
 	 */
 	public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class MessreiheTest {
 			System.out.println("Maximalwert: " + reihe.getMax());
 			System.out.println("Minimalwert: " + reihe.getMin());
 			System.out.println("Einheitliche Werte: " + reihe.isEinheitlich());
-			System.out.println("Anzahl Werte gro�er 50: " + reihe.zeahleGroessere(50));
+			System.out.println("Anzahl Werte großer 50: " + reihe.zeahleGroessere(50));
 			System.out.println("Index Maximalwert: " + reihe.getMaxIndex());
 			System.out.println("Wertebereich: " + Arrays.toString( reihe.getBereich() ));
 			
