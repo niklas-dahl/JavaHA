@@ -6,14 +6,13 @@ package HA7;
  *
  */
 public class PerKind implements GefStrategie {
-
-	private boolean[] strat = new boolean[] {coop, coop, verrat};
-	private int i = -1;
+	
+	private int i = 0;
 	
 	@Override
 	public boolean getNextDecision() {
 		i++;
-		return strat[i % 3];
+		return i%3==0;
 	}
 
 	@Override
