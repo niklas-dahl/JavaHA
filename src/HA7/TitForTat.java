@@ -1,17 +1,11 @@
 package HA7;
 
 public class TitForTat implements GefStrategie {
-	
-	private boolean boo;
-	private boolean first = true;
-	
+
+	private boolean boo = coop;
+
 	@Override
 	public boolean getNextDecision() {
-		if(first) {
-			first = false;
-			return coop;
-		}
-		
 		return boo;
 	}
 
