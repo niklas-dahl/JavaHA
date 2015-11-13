@@ -1,4 +1,4 @@
-package Dilemma;
+package HA7;
 
 /**
  * Diese Strategie entscheidet sich zufällig

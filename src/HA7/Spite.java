@@ -1,22 +1,25 @@
-package Dilemma;
+package HA7;
 
 /**
- * Diese Strategie Kooperiert so lange bis der Gegenspieler einmal verrät, danach verrät sie nur.
+ * Diese Strategie Kooperiert so lange bis der Gegenspieler einmal verrät,
+ * danach verrät sie nur.
+ * 
  * @author ndahl
  *
  */
 public class Spite implements GefStrategie {
-		
-	boolean feundlich = true;
-	
+
+	boolean verraten = false;
+
 	@Override
 	public boolean getNextDecision() {
-		return feundlich;
+		return verraten;
 	}
 
 	@Override
 	public void setOpponentsLastDecision(boolean boo) {
-		if(!boo) feundlich = false;
+		if (boo)
+			verraten = true;
 	}
 
 }

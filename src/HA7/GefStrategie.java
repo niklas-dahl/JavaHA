@@ -1,4 +1,4 @@
-package Dilemma;
+package HA7;
 
 /**
  * Das Interface das alle Spielstrategien implementieren müssen

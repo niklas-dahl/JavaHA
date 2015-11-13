@@ -1,4 +1,4 @@
-package Dilemma;
+package HA7;
 
 public class TitForTat implements GefStrategie {
 	

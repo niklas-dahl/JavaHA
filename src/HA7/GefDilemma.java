@@ -1,4 +1,4 @@
-package Dilemma;
+package HA7;
 
 /**
  * Die Klasse die das Gefängniss Dilemma simuliert

@@ -1,4 +1,4 @@
-package Dilemma;
+package HA7;
 
 /**
  * Eine Strategie die immer 2 mal Kooperiert und dann Verrät
