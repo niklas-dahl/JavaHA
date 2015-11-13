@@ -3,10 +3,16 @@
 
 ![small hamster](smha.gif)
 
-Hier können wir die Hausaufgaben hochladen, damit 
-Marius sie später zusammen auf Ilias abgeben kann
+###Info
 
-__Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
+Hier kÃ¶nnen wir die Hausaufgaben hochladen, damit 
+Marius sie spÃ¤ter zusammen auf Ilias abgeben kann
+
+__Die Hausaufgaben mÃ¼ssen jeweils Dienstag Nacht im Ilias sein !__
+
+###News
+
+- HA6 ist zurÃ¼ck. 6/7 Punkten!!!!!!!!! :weary::weary::weary: Jetzt sind wir nicht mehr das beste Java-Team wo gibt... :sob:
 
 ###Gruppe
 
@@ -14,22 +20,15 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 * Niklas Dahl
 * David Neuroth
 
-##Aufgabeverteilung:
-Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
+##Aufgabenverteilung:
+MÃ¼ssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:   
 * Marius Bronner: Aufgaben | Nummer%3 == 0   
 * Niklas Dahl: Aufgaben | Nummer%3 == 1   
-* David Neuroth: Aufgaben | Nummer%3 == 2    
+* David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __Rausfinden, wer zur Hölle David Neuroth ist (wär schon praktisch)!__
-- [ ] Dann müssen wir noch herausfinden, wer David Neuroth ist.
-- [ ] Ach ja, und wir müssen noch rausfinden, wer dieser __Kevin__ David Neuroth ist!!
-* Alles klärchen, das war's dann eigentlich auch schon ;)
+- [ ] __HA6__ verkraften
+- [ ] __HA7__ machen
 
-### History:
-1. Hausaufgabe
-	* 7/7 Punkten (100%)
-	* Kommentar: -func 5; -wart 2; Streng genommen solltet ihr gucken, was die "Stoppwatch" so tut, nicht die "Stoppuhr" ;) (kein Punktabzug).
-	* Extrem nice Kopierarbeit, Niklas :D !!
-2. Hausaufgabe
-	* Noch kein Ergebis
+### [History](History.md)
+-- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
