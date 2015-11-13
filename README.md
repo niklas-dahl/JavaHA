@@ -3,13 +3,6 @@
 
 ![small hamster](smha.gif)
 
-```java
-void main(String[] args) {
-  Gesamtstand score = new Gesamtstand();
-  score.setScore(100); //yay :)
-}
-```
-
 ###Info
 
 Hier können wir die Hausaufgaben hochladen, damit 
@@ -19,7 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- David hat Hausaufgabe 6 hochgeladen. (Dankeschön :) ) Ich lade sie morgen Abend hoch.
+- HA6 ist zurück. 6/7 Punkten!!!!!!!!! :weary::weary::weary: Jetzt sind wir nicht mehr das beste Java-Team wo gibt... :sob:
 
 ###Gruppe
 
@@ -34,7 +27,8 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __HA6__ hochladen
+- [ ] __HA6__ verkraften
+- [ ] __HA7__ machen
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
