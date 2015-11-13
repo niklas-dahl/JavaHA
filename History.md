@@ -1,7 +1,7 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
-__Derzeitiger Gesamtstatus:__ :x: Nur noh 97,62%!! :sob:
+__Derzeitiger Gesamtstatus:__ :x: Nur noch 97,62%!! :sob:
 
 | Nr. | Punkte (/7) | Kommentar
 |----:|:-----------:|---
