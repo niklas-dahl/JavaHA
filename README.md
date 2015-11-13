@@ -28,7 +28,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 
 ###ToDo:
 - [ ] __HA6__ verkraften
-- [ ] __HA7__ machen
+- [x] __HA7__ machen
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
