@@ -3,7 +3,7 @@ package HA8;
 import java.util.Comparator;
 
 /**
- * Diese Testklasse wurde 1 zu 1 (aber ohne Kommentare) vom AB übernommen.
+ * Diese Testklasse wurde vom AB übernommen.
  */
 
 public class Test {
