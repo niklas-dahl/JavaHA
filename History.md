@@ -1,10 +1,11 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
-__Derzeitiger Gesamtstatus:__ :x: Nur noch 97,62%!! :sob:
+__Derzeitiger Gesamtstatus:__ :x: Nur noch 97,96%!! :sob:
 
 | Nr. | Punkte (/7) | Kommentar
 |----:|:-----------:|---
+| 7   | 5+2=7       | Funktioniert alles.
 | 6   | 4+2=6 :sob: | Läuft alles fehlerfrei. Alternativ zu "Math.pow(2, x)" könnt ihr auch "1 << x", den (Bit)Shift-Operator verwenden. Der schiebt alle Bits der angegebenen Zahl (hier 1) um x Bitstellen nach links (was im Endeffekt analog zu 1*(2^x) ist). Habe ich damals selber nicht gemacht, sieht aber cooler aus und dürfte schneller sein ;) Für BigInteger.intValue() muss ich euch aber einen Punkt abziehen, da ihr den String selbstständig in einen Integer umwandeln solltet.
 | 5   | 5+2=7       | Euer eigene Adressdatei hättet ihr mir ruhig dazulegen können. Hashmap toString() würde ich nicht verwenden, da die ganzen Adressen dann nebeneinander stehen, was unübersichtlich ist (da es so auch in der Beispielausgabe der Aufgabenstellung steht, kein Punktabzug). Nehmt die Kommentierung wieder ein bisschen ernster, sollten die Korrekteure wechseln, würde es mich nicht wundern, wenn man euch dafür Punkte abzieht.
 | 4   | 5+2=7       | Schöne Lösung.

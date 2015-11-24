@@ -12,7 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- HA6 ist zurück. 6/7 Punkten!!!!!!!!! :weary::weary::weary: Jetzt sind wir nicht mehr das beste Java-Team wo gibt... :sob:
+- Okay, HA7 hat wieder 7/7P. Ich hab auch mal HA8 gemacht, ih könnt sie euch ja mal ansehen :)
 
 ###Gruppe
 
@@ -28,7 +28,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 
 ###ToDo:
 - [ ] __HA6__ verkraften
-- [x] __HA7__ machen
+- [ ] __HA8__ absenden
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
