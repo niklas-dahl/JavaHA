@@ -12,7 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- Okay, HA7 hat wieder 7/7P. Ich hab auch mal HA8 gemacht, ih könnt sie euch ja mal ansehen :)
+- Davids __HA9__ ist online! Ich hab sie nur neu "gepackaged" und dann hochgeladen. Wenn niemand was dazu zu sagen hat, dann lade ich sie morgen Abend hoch!
 
 ###Gruppe
 
@@ -28,7 +28,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 
 ###ToDo:
 - [ ] __HA6__ verkraften
-- [ ] __HA8__ absenden
+- [ ] __HA9__ absenden
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
