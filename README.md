@@ -13,6 +13,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 ###News
 
 - Davids __HA9__ ist online! Ich hab sie nur neu "gepackaged" und dann hochgeladen. Wenn niemand was dazu zu sagen hat, dann lade ich sie morgen Abend hoch!
+- __HA8__ ist zurück! 7/7 Punkten! :laughing:
 
 ###Gruppe
 
