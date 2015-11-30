@@ -1,7 +1,7 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
-__Derzeitiger Gesamtstatus:__ :x: Wieder 98.21 %. Sobald wir über 99.5 sind, gibts auch wieder einen Smiley :D (<- Der ist nicht gemeint...)
+__Derzeitiger Gesamtstatus:__ :x: Wieder 98.21 %. Sobald wir über 99 sind, gibts auch wieder einen Smiley :D (<- Der ist nicht gemeint...)
 
 Gesamtpunkte (/7) = Funktionalität (/5) + Wartbarkeit (/2).
 
