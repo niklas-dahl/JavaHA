@@ -12,9 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- Ich hab HA9 jetzt hochgeladen! Wenn ihr noch was ändern möchtet, dann sagt mir irgendwie Bescheid ;)
-- Davids __HA9__ ist online! Ich hab sie nur neu "gepackaged" und dann hochgeladen. Wenn niemand was dazu zu sagen hat, dann lade ich sie morgen Abend hoch!
-- __HA8__ ist zurück! 7/7 Punkten! :laughing:
+- :sob::sob::sob: Hausaufgabe 9: 5/7!!! !!! !!! !!! !!! !!! !!! :sob:! !:sob: :sob::sob:
 
 ###Gruppe
 
@@ -29,8 +27,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __HA6__ verkraften
-- [x] __HA9__ absenden
+- [ ] __HA6__ und __9__ verkraften
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
