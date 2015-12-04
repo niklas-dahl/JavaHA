@@ -1,10 +1,14 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
-__Derzeitiger Gesamtstatus:__ :x: Nur noch 97,96%!! :sob:
+__Derzeitiger Gesamtstatus:__ :x: Wieder 95.24 %. Sobald wir über 99 sind (wird nie passieren), gibts auch wieder einen Smiley :D (<- Der ist nicht gemeint...)
+
+Gesamtpunkte (/7) = Funktionalität (/5) + Wartbarkeit (/2).
 
 | Nr. | Punkte (/7) | Kommentar
 |----:|:-----------:|---
+| 9   | 3+2=5 :sob::sob:| Das Lösen / Mischen mittels Exception-Handling funktioniert zwar, ist aber kein schöner Stil. Dann lieber eine zusätzliche "pruefe(x,y)"-Funktion einbauen und entsprechend aufrufen (kein Punktabzug). In mische() verlasst ihr euch darauf, dass die 0 immer unten rechts steht. Sollte das nicht so sein, wird u.U. eine "WrongMoveException" geworfen (-1 func). Entsprechende Funktionalität habt ihr für das Lösen eingebaut, warum nicht auch beim mischen? Der Getter tuts nicht. Dadurch kann das Feld von außen verändert werden (Stichwort "tiefe Kopie", -1 func).
+| 8   | 5+2=7       | Im Konstruktor hättet ihr - theoretisch - jede Karte einzeln kopieren müssen, anstatt das ganze Array zu übernehmen (Stichwort "tiefe Kopie"). Das ist in dieser Aufgabe nicht schlimm, spätestens wenn ihr im vierten Semester Rechnernetze habt und ein Spiel wie Labyrinth oder so programmieren müsst, ist sowas extrem ärgerlich, da es nicht direkt auffällt. Ansonsten ist eure Lösung schön und kompakt.
 | 7   | 5+2=7       | Funktioniert alles.
 | 6   | 4+2=6 :sob: | Läuft alles fehlerfrei. Alternativ zu "Math.pow(2, x)" könnt ihr auch "1 << x", den (Bit)Shift-Operator verwenden. Der schiebt alle Bits der angegebenen Zahl (hier 1) um x Bitstellen nach links (was im Endeffekt analog zu 1*(2^x) ist). Habe ich damals selber nicht gemacht, sieht aber cooler aus und dürfte schneller sein ;) Für BigInteger.intValue() muss ich euch aber einen Punkt abziehen, da ihr den String selbstständig in einen Integer umwandeln solltet.
 | 5   | 5+2=7       | Euer eigene Adressdatei hättet ihr mir ruhig dazulegen können. Hashmap toString() würde ich nicht verwenden, da die ganzen Adressen dann nebeneinander stehen, was unübersichtlich ist (da es so auch in der Beispielausgabe der Aufgabenstellung steht, kein Punktabzug). Nehmt die Kommentierung wieder ein bisschen ernster, sollten die Korrekteure wechseln, würde es mich nicht wundern, wenn man euch dafür Punkte abzieht.

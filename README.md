@@ -12,7 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- Okay, HA7 hat wieder 7/7P. Ich hab auch mal HA8 gemacht, ih könnt sie euch ja mal ansehen :)
+- :sob::sob::sob: Hausaufgabe 9: 5/7!!! !!! !!! !!! !!! !!! !!! :sob:! !:sob: :sob::sob:
 
 ###Gruppe
 
@@ -27,8 +27,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __HA6__ verkraften
-- [ ] __HA8__ absenden
+- [ ] __HA6__ und __9__ verkraften
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
