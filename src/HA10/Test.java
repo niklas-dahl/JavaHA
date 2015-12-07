@@ -1,5 +1,14 @@
 package HA10;
 
+/**
+ * siehe HA-Blatt.
+ * 
+ * KLEINE ANMERKUNG: Unsere Koordinaten gehen von 0-7, die vom Blatt von 1-8.
+ * 
+ * @author nicht mbronner
+ *
+ */
+
 public class Test {
 
 	public static void main(String[] args) {
