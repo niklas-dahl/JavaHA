@@ -3,7 +3,7 @@ package HA10;
 import java.util.ArrayList;
 
 /**
- * Eine Liste für mögliche Positionen. Erweitert eine ArrayList<Position>. Ich
+ * Eine Liste fÃ¼r mÃ¶gliche Positionen. Erweitert eine ArrayList<Position>. Ich
  * brauchte aber noch ein paar "spezielle" Methoden dazu, also hab ich das hier
  * gemacht.
  * 
@@ -18,8 +18,7 @@ public class MoveList extends ArrayList<Position> {
 	/**
 	 * deepClone() Wie der Name schon sagt, werden hier zur Ausgabe die
 	 * Positionen geklont. Wenn die Positionen aus irgendeinem Grund Setter
-	 * bekommen, könnte man ja sonst bescheißen, und das will ja keiner,
-	 * oooooder?!?
+	 * bekommen, kÃ¶nnte man ja sonst bescheiÃŸen.
 	 * 
 	 * @return Geklonte MoveList
 	 */
@@ -32,8 +31,7 @@ public class MoveList extends ArrayList<Position> {
 	}
 
 	/**
-	 * Das contains() von ArrayList hat nicht funktioniert, da hab ich das hier
-	 * geschrieben.
+	 * PrÃ¼ft, ob die Position in der Liste enthalten ist.
 	 * 
 	 * @param check
 	 *            Die zu checkende Position.
