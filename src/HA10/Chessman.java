@@ -3,17 +3,17 @@ package HA10;
 import java.util.ArrayList;
 
 /**
- * Eine Schachfigur! Bewegt sich nach bestimmten Regeln und schlägt andere
+ * Eine Schachfigur! Bewegt sich nach bestimmten Regeln und schlÃ¤gt andere
  * Figuren (wobei das hier nicht implementiert ist).
  * 
- * Ich weiß, ganz schön abstrakt :D
+ * Ich weiÃŸ, ganz schÃ¶n abstrakt :D
  * 
- * Anmerkung: Wir haben bewusst getMoveList() nicht abstrakt gemacht. Das hieße
+ * Anmerkung: Wir haben bewusst getMoveList() nicht abstrakt gemacht. Das hieÃŸe
  * ja, dass in dieser Methode die Bewegungs-Regeln festgelegt werden. Dadurch
- * würden die möglichen Züge ja für jeden enzelnen Befehl immer wieder neu
- * berechnet werden! Stattdessen haben wir uns entschieden, eine private
- * Funktion refrehsMoves() abstrakt zu machen, die die Züge-Liste dann ALS
- * ATTRIBUT berechnet. Wenn später andere Figuren mit dieser hier zusammen
+ * wÃ¼rden die mÃ¶glichen ZÃ¼ge ja fÃ¼r jeden enzelnen Befehl immer wieder neu
+ * berechnet werden! Stattdessen haben wir uns entschieden, eine
+ * Methode refrehsMoves() abstrakt zu machen, die die ZÃ¼ge-Liste dann ALS
+ * ATTRIBUT berechnet. Wenn spÃ¤ter andere Figuren mit dieser hier zusammen
  * spielen, kann man ja refreshMoves() wenn sich eine andere Figur bewegt hat
  * auch wieder aufrufen. Das ist dann immer noch effizienter.
  * 
@@ -26,13 +26,13 @@ public abstract class Chessman {
 	private Position pos;
 
 	/**
-	 * hier werden später die möglichen Züge gespeichert
+	 * hier werden spÃ¤ter die mÃ¶glichen ZÃ¼ge gespeichert
 	 */
 	protected MoveList movepos = new MoveList();
 
 	/**
 	 * Normaler Konstruktor. Da er eine Position festlegt, muss er auch die
-	 * möglichen Züge überdenken
+	 * mÃ¶glichen ZÃ¼ge Ã¼berdenken
 	 * 
 	 * @param pos
 	 *            Position
@@ -48,10 +48,10 @@ public abstract class Chessman {
 	 * Implementierungen dazu noch mehr...
 	 */
 
-	protected abstract void refreshMoves();
+	public abstract void refreshMoves();
 
 	/**
-	 * Naja, gibt die Position zurück, und das war's...
+	 * Naja, gibt die Position zurÃ¼ck, und das war's...
 	 * 
 	 * @return Position
 	 */
@@ -61,8 +61,8 @@ public abstract class Chessman {
 	}
 
 	/**
-	 * Bewegt die Schachfigur - wenn möglich - zu der neuen Position. Berechnet
-	 * dann auch alle möglichen Züge neu.
+	 * Bewegt die Schachfigur - wenn mÃ¶glich - zu der neuen Position. Berechnet
+	 * dann auch alle mÃ¶glichen ZÃ¼ge neu.
 	 * 
 	 * @param pos
 	 *            neue Position
@@ -70,16 +70,16 @@ public abstract class Chessman {
 
 	public void moveTo(Position pos) {
 		if (!movepos.contains(pos))
-			throw new RuntimeException("Dieser Zug ist nicht möglich!");
+			throw new RuntimeException("Dieser Zug ist nicht mÃ¶glich!");
 		this.pos = new Position(pos);
 		this.movepos.clear();
 		this.refreshMoves();
 	}
 
 	/**
-	 * Klont die Liste mit den möglichen Zügen.
+	 * Klont die Liste mit den mÃ¶glichen ZÃ¼gen.
 	 * 
-	 * @return Mögliche Züge
+	 * @return MÃ¶gliche ZÃ¼ge
 	 */
 
 	public ArrayList<Position> getMoveList() {
@@ -87,7 +87,7 @@ public abstract class Chessman {
 	}
 
 	/**
-	 * Kann die Schachfigur diesen Zug ausführen?
+	 * Kann die Schachfigur diesen Zug ausfÃ¼hren?
 	 * 
 	 * @param pos
 	 *            Position
