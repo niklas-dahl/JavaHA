@@ -1,12 +1,13 @@
 #History (zurück zur [Haupt-Readme](../../)?)
 Die History wurde etwas zu lang, deshalb hab ich sie in eine eigene Datei verschoben...
 
-__Derzeitiger Gesamtstatus:__ :x: Wieder 95.24 %. Sobald wir über 99 sind (wird nie passieren), gibts auch wieder einen Smiley :D (<- Der ist nicht gemeint...)
+__Derzeitiger Gesamtstatus:__ ...frag nicht :(
 
 Gesamtpunkte (/7) = Funktionalität (/5) + Wartbarkeit (/2).
 
 | Nr. | Punkte (/7) | Kommentar
 |----:|:-----------:|---
+| 10  | 3+2=5 :hankey: | Methoden, die ihr abtract macht und überschreiben wollt, müssen die selbe Signatur besitzen. Heißt ihr hättet refreshMoves in der Chessman-Klasse ebenfalls protected machen müssen, zumal es sonst nicht kompiliert (-1 func). Sooo. Vom Prinzip her solltet ihr euch an die vorgegebenen Methoden und Signaturen halten. Ich halte es auch nicht für sinnvoll, die MoveList zwischen zu speichern, da sie sich "im realen Leben" nach jedem Zug ändert. Bezüglich Laufzeit ist es natürlich gut, dass ihr euch Gedanken gemacht habt, aber das ist in diesem Beispiel (und eben auch im echten Schach, wo euch das Zwischenspeichern nullkommagarnichts bringt) zu vernachlässigen (-1 func auf Grund der Signatur).
 | 9   | 3+2=5 :sob::sob:| Das Lösen / Mischen mittels Exception-Handling funktioniert zwar, ist aber kein schöner Stil. Dann lieber eine zusätzliche "pruefe(x,y)"-Funktion einbauen und entsprechend aufrufen (kein Punktabzug). In mische() verlasst ihr euch darauf, dass die 0 immer unten rechts steht. Sollte das nicht so sein, wird u.U. eine "WrongMoveException" geworfen (-1 func). Entsprechende Funktionalität habt ihr für das Lösen eingebaut, warum nicht auch beim mischen? Der Getter tuts nicht. Dadurch kann das Feld von außen verändert werden (Stichwort "tiefe Kopie", -1 func).
 | 8   | 5+2=7       | Im Konstruktor hättet ihr - theoretisch - jede Karte einzeln kopieren müssen, anstatt das ganze Array zu übernehmen (Stichwort "tiefe Kopie"). Das ist in dieser Aufgabe nicht schlimm, spätestens wenn ihr im vierten Semester Rechnernetze habt und ein Spiel wie Labyrinth oder so programmieren müsst, ist sowas extrem ärgerlich, da es nicht direkt auffällt. Ansonsten ist eure Lösung schön und kompakt.
 | 7   | 5+2=7       | Funktioniert alles.
