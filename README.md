@@ -12,7 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- :sob::sob::sob: Hausaufgabe 9: 5/7!!! !!! !!! !!! !!! !!! !!! :sob:! !:sob: :sob::sob:
+- Hausaufgabe 10 war SCHEIßE!
 
 ###Gruppe
 
@@ -27,7 +27,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [ ] __HA6__ und __9__ verkraften
+- [ ] HA11 machen
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
