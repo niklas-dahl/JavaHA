@@ -48,7 +48,7 @@ public abstract class Chessman {
 	 * Implementierungen dazu noch mehr...
 	 */
 
-	public abstract void refreshMoves();
+	protected abstract void refreshMoves();
 
 	/**
 	 * Naja, gibt die Position zurück, und das war's...
