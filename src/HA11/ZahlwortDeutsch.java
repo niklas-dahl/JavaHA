@@ -3,7 +3,7 @@ package HA11;
 public class ZahlwortDeutsch extends Zahlwort {
 
 	private String[] einer = { "ein", "zwei", "drei", "vier", "fuenf", "sechs", "sieben", "acht", "neun" };
-	private String[] zehner = { "zehn", "zwanzig", "drei�ig", "vierzig", "fuenfzig", "sechszig", "siebzig", "achtzig",
+	private String[] zehner = { "zehn", "zwanzig", "dreißig", "vierzig", "fuenfzig", "sechszig", "siebzig", "achtzig",
 			"neunzig" };
 
 	public ZahlwortDeutsch(int x) {
