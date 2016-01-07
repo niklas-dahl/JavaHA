@@ -20,7 +20,7 @@ public class Huffman
 	 */
 	public static void main(String[] args)
 	{
-		File f = new File("Message.txt");
+		File f = new File("res/Message.txt");
 		System.out.println(decode(f));
 	}
 
