@@ -12,7 +12,7 @@ __Die Hausaufgaben müssen jeweils Dienstag Nacht im Ilias sein !__
 
 ###News
 
-- Ich hab HA12 von Niklas bekommen. Lade sie jetzt hoch...
+- HA12 ist bewertet. 5/7P... HA13 hab ich schon von David bekommen, und das ist dann glaub ich auch die letzte.
 
 ###Gruppe
 
@@ -27,7 +27,7 @@ Müssen wir nochmal absprechen, aber hier ein Vorschlag von Marius:
 * David Neuroth: Aufgaben | Nummer%3 == 2   
 
 ###ToDo:
-- [x] Nichts :)
+- [ ] HA13 absenden
 
 ### [History](History.md)
 -- (Die History wurde etwas zu lang, daher jetzt eine eigene Datei!)
